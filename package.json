@@ -1,0 +1,22 @@
+{
+  "name": "rx-breakout",
+  "version": "1.0.0",
+  "description": "RxJS tests",
+  "main": "index.js",
+  "author": "Victor Rebiard--Crépin",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tsc --noEmit",
+    "clean": "rm dist/bundle.js",
+    "dev": "parcel src/index.html",
+    "build-prod": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.3"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "stylus": "^0.54.7",
+    "typescript": "^3.7.3"
+  }
+}
